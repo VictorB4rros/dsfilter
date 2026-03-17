@@ -42,3 +42,7 @@ button {
     max-width: 960px;
     margin: 0 auto;
 }
+
+.mt20 {
+    margin-top: 20px;
+}

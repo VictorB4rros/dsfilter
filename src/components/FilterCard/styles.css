@@ -1,0 +1,39 @@
+.dsf-filter-container {
+    background-color: var(--dsf-color-bg-tertiary);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.dsf-button {
+    background-color: var(--dsf-color-bg-secondary);
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    color: var(--dsf-color-font-primary);
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.dsf-input {
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid var(--dsf-color-input-border);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dsf-input::placeholder {
+    color: var(--dsf-color-font-secondary);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dsf-form {
+    display: grid;
+    gap: 20px;
+}
