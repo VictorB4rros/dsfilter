@@ -1,17 +1,22 @@
+import type { ProductDTO } from '../../models/product';
 import './styles.css';
 
-export default function DataCard() {
+type Props = {
+    products: ProductDTO[];
+}
+
+export default function DataCard({ products }: Props) {
     
     return (
         <div className="dsf-container dsf-data-container mt20">
-            <div className="data-card">
-                <p className="product-name" >PC Gamer Pro</p>
-                <p className="product-price" >R$ 1200.00</p>
-            </div>
-            <div className="data-card">
-                <p className="product-name" >PC Gamer Pro</p>
-                <p className="product-price" >R$ 1200.00</p>
-            </div>
+            {
+                products.map(product => (
+                    <div key={product.id} className="data-card">
+                        <p className="product-name" >{product.name}</p>
+                        <p className="product-price" >R$ {product.price}</p>
+                    </div>
+                ))
+            }
         </div>
     );
 }
