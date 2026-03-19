@@ -1,0 +1,25 @@
+.dsf-data-container {
+    background-color: var(--dsf-color-bg-tertiary);
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    gap: 10px;
+}
+
+.data-card {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid var(--dsf-color-card-border);
+}
+
+.product-name {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--dsf-color-font-tertiary);
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--dsf-color-font-quaternary);
+}

@@ -1,3 +1,4 @@
+import DataCard from "./components/DataCard";
 import FilterCard from "./components/FilterCard";
 import Header from "./components/Header";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <FilterCard />
+      <DataCard />
     </>
   );
 }
