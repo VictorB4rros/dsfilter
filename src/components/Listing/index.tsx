@@ -5,7 +5,7 @@ type Props = {
     products: ProductDTO[];
 }
 
-export default function DataCard({ products }: Props) {
+export default function Listing({ products }: Props) {
     
     return (
         <div className="dsf-container dsf-data-container mt20">

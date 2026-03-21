@@ -1,6 +1,6 @@
 import './styles.css';
 
-export default function FilterCard() {
+export default function Filter() {
 
     return (
         <div className="dsf-container dsf-filter-container mt20">
