@@ -8,7 +8,7 @@ type Props = {
 export default function Listing({ products }: Props) {
     
     return (
-        <div className="dsf-container dsf-data-container mt20">
+        <div className="dsf-container dsf-data-container mt20 mb20">
             {
                 products.map(product => (
                     <div key={product.id} className="data-card">
